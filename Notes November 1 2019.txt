@@ -1,0 +1,51 @@
+https://bit.ly/2Ny0Rqr - our slideshow presented by Han and Alex.
+Advice given for memefly - survey results may show sampling bias, there should be a
+	"neutral" option in difficulty. Parker - "I hope the web team will be able to
+	make the final product feel fresh." There is a lot of selling to be done.
+	Keep hiring managers in mind; the thought processes involved are more important
+	than the end product. Demonstrate skill set. Ends = means.
+	Parker was hoping to see more PVD. PVD should give the next team a good starting
+	point if our whole team dies. Bus factor.
+
+Startup grant database - Ben Griffin presenting. Building upon previous work, working 
+	with venture capitalists. App aims to be a one-stop-shop for investors.
+	CEO's vision is similar to a subreddit, with a list of investment opportunities.
+	CEO wants a re-facing on administrator views. We added a favorites page.
+	Working with material UI to make the admin table. Using cheerio for data 
+	scraping. 
+	Parker - what are your assumptions, what questions do you have for them?
+	How do we redesign the API to route admins differently than users?
+	Most user research will be in the moderator function. 
+	Parker - are you confident in your next steps?
+	- Yes.
+
+Best places to live - Devin Bielejec presenting. Objective: find personalized optimum
+	living locations.
+	Current app - sparse. Limit scope of customers to recent graduates in tech.
+	Make app more personalized and interractive. 
+	Prior lab group used react and node pretty heavily.
+	Not much use for ML data science here, sample sizes far too low. 
+	Parker - find new datasets that could help. Maybe coordinate with the Yelp group?
+	Analyzing sentiment of location-based social media posts could be a good task for DS.	
+
+Tagger - Dixie Jones presenting. Objective: access anything in your email in a personal way.
+	Hopefully categorize search targets by subject - birthdays, work, etc.
+	Competitors - superhuman, edison, june.ai(not yet released) - are not content focussed an easily searchable.
+	Doing interviews - 7 total so far.
+	Backend - nodejs probably because it's flexible, but might struggle with bigger data.
+	Database - SQL
+	DS - NLP for user searching and topic modeling for taggging.
+	Parker - 1. Boring, but I could see how you were thinking about the problems.
+	2. Plugin or standalone? Most likely standalone, but possible routes are many. 
+
+Conference Contacts - Tyler Nishida presenting. Objective: share contacts quickly in-person, learn about peers in
+	a conference, maintain contact relationships, integrate with existing services.
+	Research - who's the user? Most people have had problems staying in touch with people at a conference.
+		- most people prefer to exchange emails
+	Conference industry - $330bil/year, 1.2 mil jobs
+	Parker - QR codes have been useful, maybe NFC/bluetooth automatic contacting?
+	Competitors - Whova, Covve(too difficult, too feature rich, most similar to our goal), socio (made for organizers)
+	Architecture details - Backend: Node, express, Knex DB: PostgressQL API's: RESTAPI Monetization?: Stripe
+		-Frontend: React, Redux, Apollo for frameworks; Custom design and Sass for styling
+		-iOS: Mapkit, CoreLocation, Vision, PassKit, Social, and more stuff
+	Parker: No questions, good documentation on PVD.  
